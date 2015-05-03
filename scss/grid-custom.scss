@@ -1,0 +1,15 @@
+@import 'settings';
+
+@mixin grid($grid-row, $grid-colums ) {
+  @for $row-num from 0 through $grid-row {
+    @for $colum-num from 0 through $grid-colums {
+      .u-grid-r#{$row-num}-c#{$colum-num} {
+        position: absolute;
+        top: #{$size-height * $row-num };
+        left: #{$size-width * $colum-num };
+        width: $size-width;
+        height: $size-height;
+      }
+    }
+  }
+}
