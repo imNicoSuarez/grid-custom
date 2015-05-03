@@ -1,0 +1,14 @@
+{
+  "name": "grid-custom",
+  "version": "0.0.1",
+  "homepage": "https://github.com/imNicoSuarez/grid-custom",
+  "authors": [
+    "Nicolas Suarez <nicolassuarez.cabrera@gmail.com>"
+  ],
+  "description": "Custom Grid |_|_|",
+  "main": "scss/grid-custom.scss",
+  "keywords": [
+    "Grid"
+  ],
+  "license": "MIT"
+}
